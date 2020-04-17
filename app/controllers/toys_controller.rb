@@ -21,4 +21,11 @@ class ToysController < ApplicationController
     )
     render json: Toy.last
   end
+
+  def update
+  end
+
+  def delete
+  end
+
 end
