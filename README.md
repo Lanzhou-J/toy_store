@@ -21,4 +21,11 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+### Routing method
+
+- homepage: http://localhost:3000
+- toys list: http://localhost:3000/toys
+- create a new toy item: http://localhost:3000/toys/add
+- show a single toy: http://localhost:3000/toys/:id
+- delete a toy: http://localhost:3000/toys/delete/:id
+- update information: http://localhost:3000/toys/change
