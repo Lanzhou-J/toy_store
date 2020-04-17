@@ -26,6 +26,6 @@ Things you may want to cover:
 - homepage: http://localhost:3000
 - toys list: http://localhost:3000/toys
 - create a new toy item: http://localhost:3000/toys/add
-- show a single toy: http://localhost:3000/toys/:id
+- show a single toy: http://localhost:3000/toys/show/:id
 - delete a toy: http://localhost:3000/toys/delete/:id
-- update information: http://localhost:3000/toys/change
+- update information: http://localhost:3000/toys/update/:id

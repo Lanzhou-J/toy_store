@@ -23,9 +23,21 @@ class ToysController < ApplicationController
   end
 
   def update
+    id = params[:id].to_i
+    toy = Toy.find(id)
+    toy.update(
+    name: params[:toy][:name],
+    description: params[:toy][:description],
+    date: params[:toy][:date],
+    user: params[:toy][:user]  
+    )
   end
 
-  def delete
+  def destroy
+    id = params[:id].to_i
+    toy = Toy.find(id)
+    toy.destroy
+    # render json: Toy.all
   end
 
 end

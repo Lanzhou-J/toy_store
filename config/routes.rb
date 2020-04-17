@@ -4,5 +4,8 @@ Rails.application.routes.draw do
   get "/toys/add", to: "toys#add"
   post "toys/new", to: "toys#new"
   get "/toys", to: "toys#display"
-  get "/toys/:id", to: "toys#show"
+  delete "toys/delete/:id", to: "toys#update"
+  put "toys/update/:id", to: "toys#update"
+  get "/toys/show/:id", to: "toys#show"
+  
 end
